@@ -29,3 +29,9 @@ mounts:
     'run':
         source: local
         source_path: run
+
+source:
+  operations:
+    auto-update:
+      command: |
+        python scripts/autoupdate.py
